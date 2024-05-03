@@ -43,3 +43,11 @@ jar{
 ```
 
 - We can also do `./gradlew run` to run the project (simpler method compared to the jar method)
+
+Now let us make a API call from gradle using the Okhttp library
+
+- Add the implementation in the build.gradle in the dependencies for okhttp
+
+After that when we make the jar and try to run it we will get an error
+
+For this refer to Repository GradleUsingCLI there we have the options to make this possible using fatjar
